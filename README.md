@@ -41,5 +41,5 @@ La organización del código refleja la separación física de los componentes d
 
 Cada entorno tiene sus propios requisitos y comandos de ejecución. Por favor, consulta la documentación específica de cada módulo para levantarlos correctamente:
 
-1. Para levantar los microservicios, bases de datos y el Gateway, dirígete a la [Guía del Backend](./backend/README.md).
-2. Para compilar y ejecutar la aplicación móvil o de escritorio, dirígete a la [Guía del Frontend](./frontend/README.md).
+1. Para levantar los microservicios, bases de datos y el Gateway, dirígete a la [Guía del Backend](./inmohub-backend/README.md).
+2. Para compilar y ejecutar la aplicación móvil o de escritorio, dirígete a la [Guía del Frontend](./inmohub-frontend/README.md).

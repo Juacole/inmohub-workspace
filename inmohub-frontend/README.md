@@ -30,3 +30,30 @@ El código principal reside en el módulo compartido, garantizando la reutilizac
 * **Android Studio** (Recomendado) o IntelliJ IDEA con el plugin de Kotlin Multiplatform.
 * Emulador de Android o dispositivo físico (para el target móvil).
 * El **Backend de InmoHub** debe estar en ejecución localmente para que el login y el listado de propiedades funcionen.
+
+## 🚀 Ejecución del Proyecto
+
+Sigue las instrucciones según la plataforma en la que quieras ejecutar la aplicación.
+
+### Ejecutar en Desktop (JVM)
+
+#### macOS / Linux:
+```bash
+./gradlew :composeApp:run
+```
+
+### Ejecutar en Android
+
+Puedes usar la configuración de ejecución de Android Studio o compilar mediante la terminal:
+
+**macOS / Linux:**
+```bash
+./gradlew :composeApp:assembleDebug
+```
+
+**Windows (PowerShell):**
+```powershell
+.\gradlew.bat :composeApp:assembleDebug
+```
+
+Una vez compilado, instala el APK generado en tu dispositivo o emulador.  
